@@ -1,0 +1,49 @@
+*{margin: 0%;}
+header{background-color:#1f2937; height: 60px;}
+span{margin: 1%; float: left; margin-left: 6%; 
+    font-size: 24px; color: #F9FAF8;}
+a{float: right; margin: 1%; margin-right: 6%;
+color: #e5e7eb; font-size: 18px;}
+.container{display: flex; flex-direction: column; width: 100%;
+     height:auto;  margin-top: 0%; }
+.container .item1{  height: 400px; display: flex;
+     background-color: #1f2937;  margin-top: 0%;}
+ .container .item1 .box{ background-color:#1f2937 ; width: 48%;
+margin: 5%; font-size: 48px ; font-weight: bolder; }
+.sub-box{color: white; font-size: 18px; font-weight: lighter;}
+button{background-color: #3882f6; width: 25%; height: 15%;
+    border-radius: 7px; color: white;}
+.container .item1 .box1{  width: 48%;
+    margin: 5%; background-color:gray; text-align: center;
+ font-size: 18px; padding-top: 6%; }
+
+ .container .item2{  height: 400px; display: flex; align-items: center;
+    flex-direction: column;
+   ; background-color: white;  margin-top: 0%;} 
+    
+   .container .item2 .p2{ background-color: white;width: 100%; text-align: center;
+    height:20%; font-size: 36px; font-weight: bolder; color: #1f2937;}
+   .container .item2 .pics{background-color:white;width: 100%;
+    height: 80%; display: flex; justify-content: center;} 
+    .container .item2 .pics div{ border: 4px solid #3882f6 ; width:10%;
+    margin: 4%; height: 40%; border-radius: 10px;
+      }    
+
+    .container .item3{  height: 400px; display: flex; 
+        justify-content: center; text-align: center;
+        background-color: #c5d2ec;  margin-top: 0%;}
+        .p3{font-size: 36px; font-weight: lighter; padding: 5%;}
+
+        .container .item4{  height: 400px; display: flex; align-items: center;
+            flex-direction: column; 
+           ; background-color: white;  margin-top: 0%;}
+
+.container .item4 .msg{background-color: #3882f6;margin-top: 10%;
+width: 80%;  font-size: 24px; padding: 2%; }
+
+.container .item4 .msgd{font-size: 18px; font-weight: lighter;}
+.sign{ width: 15%; font-size: 18px;
+    height: 70%;border-color: white;margin-left:60%;}
+
+ footer{ background-color:#1f2937; height: 40px;text-align: center;
+color: white; padding: 1%;}   
