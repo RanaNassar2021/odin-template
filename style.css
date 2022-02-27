@@ -4,6 +4,7 @@ span{margin: 1%; float: left; margin-left: 6%;
     font-size: 24px; color: #F9FAF8;}
 a{float: right; margin: 1%; margin-right: 6%;
 color: #e5e7eb; font-size: 18px;}
+a:hover{ font-size: 24px;}
 .container{display: flex; flex-direction: column; width: 100%;
      height:auto;  margin-top: 0%; }
 .container .item1{  height: 400px; display: flex;
@@ -13,6 +14,7 @@ margin: 5%; font-size: 48px ; font-weight: bolder; }
 .sub-box{color: white; font-size: 18px; font-weight: lighter;}
 button{background-color: #3882f6; width: 25%; height: 15%;
     border-radius: 7px; color: white;}
+    button:hover{background-color: white; color:#1f2937; font-size: 20px;}
 .container .item1 .box1{  width: 30%;
     margin: 5%; background-color:gray; text-align: center;
  font-size: 18px; padding-top: 6%; }
